@@ -32,17 +32,17 @@ public class Rubies {
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
-        MyBlocks.BLOCKS.register(modEventBus);
+        BlockInit.BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
-        MyItems.ITEMS.register(modEventBus);
+        ItemInit.ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
-        MyCreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        CreativeTabsInit.CREATIVE_MODE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         NeoForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab
-        modEventBus.addListener(MyCreativeModeTabs::addCreative);
+        modEventBus.addListener(CreativeTabsInit::addCreative);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
