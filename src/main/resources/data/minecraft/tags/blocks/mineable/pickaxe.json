@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "rubies:ruby_block"
+    "rubies:ruby_block",
+    "rubies:ruby_ore",
+    "rubies:deepslate_ruby_ore"
   ]
 }

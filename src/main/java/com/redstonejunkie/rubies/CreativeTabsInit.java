@@ -22,6 +22,9 @@ public class CreativeTabsInit {
                         // Add the example item to the tab. For your own tabs, this method is preferred over the event
                         output.accept(ItemInit.RUBY.get());
                         output.accept(BlockInit.RUBY_BLOCK.get());
+                        output.accept(BlockInit.RUBY_ORE.get());
+                        output.accept(BlockInit.DEEPSLATE_RUBY_ORE.get());
+                        output.accept(ItemInit.RUBY_PICKAXE.get());
                     }).build());
 
     static public void addCreative(BuildCreativeModeTabContentsEvent event) {

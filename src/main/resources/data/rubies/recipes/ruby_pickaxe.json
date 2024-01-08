@@ -2,16 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "group": "ruby",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "XXX",
+    " # ",
+    " # "
   ],
   "key": {
     "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
       "item": "rubies:ruby"
     }
   },
   "result": {
-    "item": "rubies:ruby_block"
+    "item": "rubies:ruby_pickaxe"
   }
 }
