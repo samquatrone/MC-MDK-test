@@ -24,7 +24,15 @@ public class CreativeTabsInit {
                         output.accept(BlockInit.RUBY_BLOCK.get());
                         output.accept(BlockInit.RUBY_ORE.get());
                         output.accept(BlockInit.DEEPSLATE_RUBY_ORE.get());
+                        output.accept(ItemInit.RUBY_SWORD.get());
+                        output.accept(ItemInit.RUBY_AXE.get());
                         output.accept(ItemInit.RUBY_PICKAXE.get());
+                        output.accept(ItemInit.RUBY_SHOVEL.get());
+                        output.accept(ItemInit.RUBY_HOE.get());
+                        output.accept(ItemInit.RUBY_HELMET.get());
+                        output.accept(ItemInit.RUBY_CHESTPLATE.get());
+                        output.accept(ItemInit.RUBY_LEGGINGS.get());
+                        output.accept(ItemInit.RUBY_BOOTS.get());
                     }).build());
 
     static public void addCreative(BuildCreativeModeTabContentsEvent event) {

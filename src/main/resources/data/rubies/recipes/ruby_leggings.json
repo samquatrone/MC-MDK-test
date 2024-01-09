@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ruby",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "rubies:ruby"
+    }
+  },
+  "result": {
+    "item": "rubies:ruby_leggings"
+  }
+}

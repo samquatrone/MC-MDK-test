@@ -3,6 +3,13 @@
   "block.rubies.ruby_block": "Block of Ruby",
   "block.rubies.ruby_ore": "Ruby Ore",
   "block.rubies.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "item.rubies.ruby_pickaxe": "Ruby Pickaxe"
-
+  "item.rubies.ruby_pickaxe": "Ruby Pickaxe",
+  "item.rubies.ruby_axe": "Ruby Axe",
+  "item.rubies.ruby_shovel": "Ruby Shovel",
+  "item.rubies.ruby_sword": "Ruby Sword",
+  "item.rubies.ruby_hoe": "Ruby Hoe",
+  "item.rubies.ruby_helmet": "Ruby Helmet",
+  "item.rubies.ruby_chestplate": "Ruby Chestplate",
+  "item.rubies.ruby_leggings": "Ruby Leggings",
+  "item.rubies.ruby_boots": "Ruby Boots"
 }

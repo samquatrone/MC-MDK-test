@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ruby",
+  "pattern": [
+    "XX ",
+    "X# ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "rubies:ruby"
+    }
+  },
+  "result": {
+    "item": "rubies:ruby_axe"
+  }
+}
